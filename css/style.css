@@ -1,3 +1,7 @@
+body {
+  background: black;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -6,8 +10,9 @@ main {
   height: 33em;
   border-radius: 10px;
   background-color: rgb(255, 196, 0);
-  box-shadow: 3px 3px 20px -5px black;
+  box-shadow: 3px 3px 20px -5px rgb(223, 222, 222);
   margin: auto;
+  margin-top: 50px;
 }
 
 h1 {
@@ -59,4 +64,13 @@ button {
   border-radius: 5px;
   box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, 0.664);
   color: yellow;
+  text-align: center;
+}
+
+.infoIMC {
+  display: flex;
+  text-align: center;
+  width: 20em;
+  margin: 20px auto;
+  color: rgb(70, 71, 71);
 }
